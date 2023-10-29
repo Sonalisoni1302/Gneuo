@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed&family=Tilt+Neon&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+a.active {
+    border-bottom: 1px solid black;
+}
+
+.btn-get-started {
+    background-color: rgb(96, 203, 245);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-explore {
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-get-started:hover {
+    background-color: aqua;
+}
+
+.brand-name {
+    color: orangered;
+}
+
+#header {
+    height: 90vh;
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.form {
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    padding: 30px;
+}
+
+.acco {
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+.textanimate{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 80px;
+    padding: 0px;
+    text-shadow: 1px 1px 10px black;
+}
+.selectleng{
+    height: 40px;
+    border-radius: 10px;
+    transition: ease-in-out 700ms;
+    margin-top: 10px;
+}
+.selectleng:hover{
+    border: 2px solid rgb(86, 200, 246);
+    box-shadow: 2px 2px 10px rgb(86, 200, 246) ;
+}
+.cardm{
+    box-shadow: 1px 1px 10px black;
+}
+.cardm:hover{
+    box-shadow: 1px 1px 20px black;
+}
+.brandimg{
+    width: 40px;
+    padding-right: 10px;
+}
+
+
+
